@@ -67,6 +67,7 @@ a{
 }
 .fa fa-star{
   border-top: 5px solid white;
+  width: 40%;
 }
 .portafolio {
   display: flex;
