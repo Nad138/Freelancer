@@ -59,12 +59,14 @@ a{
   justify-content: center;
   }
 .container-inicio{
-
 }
 .container-inicio span{
   flex-wrap: nowrap;
   flex-direction: row;
   width: 200px;
+}
+.fa fa-star{
+  border-top: 5px solid white;
 }
 .portafolio {
   display: flex;
@@ -75,9 +77,13 @@ a{
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
 }
+
 .image-portafolio img{
   width: 400px;
   height: 250px;
+}
+
+h1{
+  font-size: 3em;
 }
