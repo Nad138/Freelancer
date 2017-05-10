@@ -3,7 +3,7 @@ window.addEventListener('scroll',function(){
   var navegador = document.getElementById("navegador");
 	var accionScroll = document.documentElement.scrollTop;
 	if (accionScroll > ultimoScrollTop) {
-		navegador.classList.add('');
+		navegador.classList.add('nav-small');
 
 			signup.style.transform = "translate(-200px, 0px)";
 		for (var i = 0; i < menuList.length; i++) {
