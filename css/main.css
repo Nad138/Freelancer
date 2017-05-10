@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -9,7 +10,6 @@ header{
   color: #fcfcfc;
   padding: 30px;
   text-transform: uppercase;
-  position: fixed;
   width: 100%;
 }
 
@@ -19,9 +19,7 @@ header{
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   height: 40px;
-  transition: all 0.3s ease;
-  /*position: fixed;*/
-  width: 90%;
+  width: 100%;
   z-index: 0;
 }
 
@@ -47,12 +45,39 @@ a{
   color:#2dc9a9;
 }
 
-.nav-small{
+.nav-small {
   font-size: 1em;
-  height: 30px;
+  position: fixed;
+  width: 100%;
 }
+
 .inicio {
   background-color: #2dc9a9;
   color: #fbfcfc;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  }
+.container-inicio{
+
+}
+.container-inicio span{
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 200px;
+}
+.portafolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-image{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.image-portafolio img{
+  width: 400px;
+  height: 250px;
 }
